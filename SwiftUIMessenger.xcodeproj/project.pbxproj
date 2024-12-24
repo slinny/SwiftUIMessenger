@@ -21,6 +21,8 @@
 		93E32EB82D1A42940019D125 /* SettingsTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EB72D1A42940019D125 /* SettingsTabScreen.swift */; };
 		93E32EBC2D1A43620019D125 /* TextInputArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EBB2D1A43620019D125 /* TextInputArea.swift */; };
 		93E32EBE2D1A43800019D125 /* ChatRoomScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EBD2D1A43800019D125 /* ChatRoomScreen.swift */; };
+		93E32EC02D1A49800019D125 /* MessageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EBF2D1A49800019D125 /* MessageListController.swift */; };
+		93E32EC22D1A49AA0019D125 /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EC12D1A49AA0019D125 /* MessageListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		93E32EB72D1A42940019D125 /* SettingsTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabScreen.swift; sourceTree = "<group>"; };
 		93E32EBB2D1A43620019D125 /* TextInputArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputArea.swift; sourceTree = "<group>"; };
 		93E32EBD2D1A43800019D125 /* ChatRoomScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomScreen.swift; sourceTree = "<group>"; };
+		93E32EBF2D1A49800019D125 /* MessageListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListController.swift; sourceTree = "<group>"; };
+		93E32EC12D1A49AA0019D125 /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +207,8 @@
 		93E32EBA2D1A435B0019D125 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				93E32EC12D1A49AA0019D125 /* MessageListView.swift */,
+				93E32EBF2D1A49800019D125 /* MessageListController.swift */,
 				93E32EBD2D1A43800019D125 /* ChatRoomScreen.swift */,
 				93E32EBB2D1A43620019D125 /* TextInputArea.swift */,
 			);
@@ -286,9 +292,11 @@
 				93E32E9D2D1A3AAC0019D125 /* CallsTabScreen.swift in Sources */,
 				93E32E9E2D1A3AAC0019D125 /* MainTabView.swift in Sources */,
 				93E32EAB2D1A3B540019D125 /* CommunityTabScreen.swift in Sources */,
+				93E32EC02D1A49800019D125 /* MessageListController.swift in Sources */,
 				93E32EAE2D1A40F90019D125 /* ChannelTabScreen.swift in Sources */,
 				93E32EB82D1A42940019D125 /* SettingsTabScreen.swift in Sources */,
 				93E32E9F2D1A3AAC0019D125 /* SwiftUIMessengerApp.swift in Sources */,
+				93E32EC22D1A49AA0019D125 /* MessageListView.swift in Sources */,
 				93E32EB42D1A42800019D125 /* SettingsItem.swift in Sources */,
 				93E32EBC2D1A43620019D125 /* TextInputArea.swift in Sources */,
 				93E32EB62D1A428B0019D125 /* SettingsItemView.swift in Sources */,
