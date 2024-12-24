@@ -14,6 +14,8 @@
 		93E32E9F2D1A3AAC0019D125 /* SwiftUIMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32E982D1A3AAC0019D125 /* SwiftUIMessengerApp.swift */; };
 		93E32EA02D1A3AAC0019D125 /* UpdatesTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32E992D1A3AAC0019D125 /* UpdatesTabScreen.swift */; };
 		93E32EAB2D1A3B540019D125 /* CommunityTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EAA2D1A3B540019D125 /* CommunityTabScreen.swift */; };
+		93E32EAE2D1A40F90019D125 /* ChannelTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EAD2D1A40F90019D125 /* ChannelTabScreen.swift */; };
+		93E32EB02D1A41070019D125 /* ChannelItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EAF2D1A41070019D125 /* ChannelItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		93E32E982D1A3AAC0019D125 /* SwiftUIMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMessengerApp.swift; sourceTree = "<group>"; };
 		93E32E992D1A3AAC0019D125 /* UpdatesTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesTabScreen.swift; sourceTree = "<group>"; };
 		93E32EAA2D1A3B540019D125 /* CommunityTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTabScreen.swift; sourceTree = "<group>"; };
+		93E32EAD2D1A40F90019D125 /* ChannelTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTabScreen.swift; sourceTree = "<group>"; };
+		93E32EAF2D1A41070019D125 /* ChannelItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		93E32EA32D1A3ACB0019D125 /* Channel */ = {
 			isa = PBXGroup;
 			children = (
+				93E32EAC2D1A40E70019D125 /* Views */,
 			);
 			path = Channel;
 			sourceTree = "<group>";
@@ -144,6 +149,15 @@
 			isa = PBXGroup;
 			children = (
 				93E32E992D1A3AAC0019D125 /* UpdatesTabScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93E32EAC2D1A40E70019D125 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93E32EAF2D1A41070019D125 /* ChannelItemView.swift */,
+				93E32EAD2D1A40F90019D125 /* ChannelTabScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -224,7 +238,9 @@
 				93E32E9D2D1A3AAC0019D125 /* CallsTabScreen.swift in Sources */,
 				93E32E9E2D1A3AAC0019D125 /* MainTabView.swift in Sources */,
 				93E32EAB2D1A3B540019D125 /* CommunityTabScreen.swift in Sources */,
+				93E32EAE2D1A40F90019D125 /* ChannelTabScreen.swift in Sources */,
 				93E32E9F2D1A3AAC0019D125 /* SwiftUIMessengerApp.swift in Sources */,
+				93E32EB02D1A41070019D125 /* ChannelItemView.swift in Sources */,
 				93E32EA02D1A3AAC0019D125 /* UpdatesTabScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
