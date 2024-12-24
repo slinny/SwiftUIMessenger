@@ -16,6 +16,9 @@
 		93E32EAB2D1A3B540019D125 /* CommunityTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EAA2D1A3B540019D125 /* CommunityTabScreen.swift */; };
 		93E32EAE2D1A40F90019D125 /* ChannelTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EAD2D1A40F90019D125 /* ChannelTabScreen.swift */; };
 		93E32EB02D1A41070019D125 /* ChannelItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EAF2D1A41070019D125 /* ChannelItemView.swift */; };
+		93E32EB42D1A42800019D125 /* SettingsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EB32D1A42800019D125 /* SettingsItem.swift */; };
+		93E32EB62D1A428B0019D125 /* SettingsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EB52D1A428B0019D125 /* SettingsItemView.swift */; };
+		93E32EB82D1A42940019D125 /* SettingsTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EB72D1A42940019D125 /* SettingsTabScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		93E32EAA2D1A3B540019D125 /* CommunityTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTabScreen.swift; sourceTree = "<group>"; };
 		93E32EAD2D1A40F90019D125 /* ChannelTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTabScreen.swift; sourceTree = "<group>"; };
 		93E32EAF2D1A41070019D125 /* ChannelItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelItemView.swift; sourceTree = "<group>"; };
+		93E32EB32D1A42800019D125 /* SettingsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItem.swift; sourceTree = "<group>"; };
+		93E32EB52D1A428B0019D125 /* SettingsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemView.swift; sourceTree = "<group>"; };
+		93E32EB72D1A42940019D125 /* SettingsTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,8 @@
 		93E32EA22D1A3AC50019D125 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				93E32EB22D1A42620019D125 /* Views */,
+				93E32EB12D1A425D0019D125 /* Models */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -158,6 +166,23 @@
 			children = (
 				93E32EAF2D1A41070019D125 /* ChannelItemView.swift */,
 				93E32EAD2D1A40F90019D125 /* ChannelTabScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93E32EB12D1A425D0019D125 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93E32EB32D1A42800019D125 /* SettingsItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93E32EB22D1A42620019D125 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93E32EB72D1A42940019D125 /* SettingsTabScreen.swift */,
+				93E32EB52D1A428B0019D125 /* SettingsItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -239,7 +264,10 @@
 				93E32E9E2D1A3AAC0019D125 /* MainTabView.swift in Sources */,
 				93E32EAB2D1A3B540019D125 /* CommunityTabScreen.swift in Sources */,
 				93E32EAE2D1A40F90019D125 /* ChannelTabScreen.swift in Sources */,
+				93E32EB82D1A42940019D125 /* SettingsTabScreen.swift in Sources */,
 				93E32E9F2D1A3AAC0019D125 /* SwiftUIMessengerApp.swift in Sources */,
+				93E32EB42D1A42800019D125 /* SettingsItem.swift in Sources */,
+				93E32EB62D1A428B0019D125 /* SettingsItemView.swift in Sources */,
 				93E32EB02D1A41070019D125 /* ChannelItemView.swift in Sources */,
 				93E32EA02D1A3AAC0019D125 /* UpdatesTabScreen.swift in Sources */,
 			);
