@@ -23,6 +23,10 @@
 		93E32EBE2D1A43800019D125 /* ChatRoomScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EBD2D1A43800019D125 /* ChatRoomScreen.swift */; };
 		93E32EC02D1A49800019D125 /* MessageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EBF2D1A49800019D125 /* MessageListController.swift */; };
 		93E32EC22D1A49AA0019D125 /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EC12D1A49AA0019D125 /* MessageListView.swift */; };
+		93E32EC42D1A4B6C0019D125 /* BubbleTailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EC32D1A4B6C0019D125 /* BubbleTailView.swift */; };
+		93E32EC62D1A4B750019D125 /* BubbleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EC52D1A4B750019D125 /* BubbleTextView.swift */; };
+		93E32EC92D1A4BB80019D125 /* MessageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EC82D1A4BB80019D125 /* MessageItem.swift */; };
+		93E32ECC2D1A4F210019D125 /* BubbleTailModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32ECB2D1A4F210019D125 /* BubbleTailModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,10 @@
 		93E32EBD2D1A43800019D125 /* ChatRoomScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomScreen.swift; sourceTree = "<group>"; };
 		93E32EBF2D1A49800019D125 /* MessageListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListController.swift; sourceTree = "<group>"; };
 		93E32EC12D1A49AA0019D125 /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
+		93E32EC32D1A4B6C0019D125 /* BubbleTailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTailView.swift; sourceTree = "<group>"; };
+		93E32EC52D1A4B750019D125 /* BubbleTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTextView.swift; sourceTree = "<group>"; };
+		93E32EC82D1A4BB80019D125 /* MessageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageItem.swift; sourceTree = "<group>"; };
+		93E32ECB2D1A4F210019D125 /* BubbleTailModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTailModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,7 @@
 		93E32E9A2D1A3AAC0019D125 /* SwiftUIMessenger */ = {
 			isa = PBXGroup;
 			children = (
+				93E32ECA2D1A4F1E0019D125 /* Helpers */,
 				93E32EA12D1A3AB00019D125 /* Screens */,
 				93E32E942D1A3AAC0019D125 /* Preview Content */,
 				93E32E952D1A3AAC0019D125 /* Assets.xcassets */,
@@ -199,6 +208,7 @@
 		93E32EB92D1A43560019D125 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				93E32EC72D1A4BAF0019D125 /* Models */,
 				93E32EBA2D1A435B0019D125 /* Views */,
 			);
 			path = Chat;
@@ -207,12 +217,30 @@
 		93E32EBA2D1A435B0019D125 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				93E32EC52D1A4B750019D125 /* BubbleTextView.swift */,
+				93E32EC32D1A4B6C0019D125 /* BubbleTailView.swift */,
 				93E32EC12D1A49AA0019D125 /* MessageListView.swift */,
 				93E32EBF2D1A49800019D125 /* MessageListController.swift */,
 				93E32EBD2D1A43800019D125 /* ChatRoomScreen.swift */,
 				93E32EBB2D1A43620019D125 /* TextInputArea.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		93E32EC72D1A4BAF0019D125 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93E32EC82D1A4BB80019D125 /* MessageItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93E32ECA2D1A4F1E0019D125 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				93E32ECB2D1A4F210019D125 /* BubbleTailModifier.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,13 +319,17 @@
 				93E32EBE2D1A43800019D125 /* ChatRoomScreen.swift in Sources */,
 				93E32E9D2D1A3AAC0019D125 /* CallsTabScreen.swift in Sources */,
 				93E32E9E2D1A3AAC0019D125 /* MainTabView.swift in Sources */,
+				93E32EC92D1A4BB80019D125 /* MessageItem.swift in Sources */,
 				93E32EAB2D1A3B540019D125 /* CommunityTabScreen.swift in Sources */,
 				93E32EC02D1A49800019D125 /* MessageListController.swift in Sources */,
+				93E32EC42D1A4B6C0019D125 /* BubbleTailView.swift in Sources */,
 				93E32EAE2D1A40F90019D125 /* ChannelTabScreen.swift in Sources */,
+				93E32ECC2D1A4F210019D125 /* BubbleTailModifier.swift in Sources */,
 				93E32EB82D1A42940019D125 /* SettingsTabScreen.swift in Sources */,
 				93E32E9F2D1A3AAC0019D125 /* SwiftUIMessengerApp.swift in Sources */,
 				93E32EC22D1A49AA0019D125 /* MessageListView.swift in Sources */,
 				93E32EB42D1A42800019D125 /* SettingsItem.swift in Sources */,
+				93E32EC62D1A4B750019D125 /* BubbleTextView.swift in Sources */,
 				93E32EBC2D1A43620019D125 /* TextInputArea.swift in Sources */,
 				93E32EB62D1A428B0019D125 /* SettingsItemView.swift in Sources */,
 				93E32EB02D1A41070019D125 /* ChannelItemView.swift in Sources */,
