@@ -27,6 +27,7 @@
 		93E32EC62D1A4B750019D125 /* BubbleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EC52D1A4B750019D125 /* BubbleTextView.swift */; };
 		93E32EC92D1A4BB80019D125 /* MessageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EC82D1A4BB80019D125 /* MessageItem.swift */; };
 		93E32ECC2D1A4F210019D125 /* BubbleTailModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32ECB2D1A4F210019D125 /* BubbleTailModifier.swift */; };
+		93E32ECE2D1A51750019D125 /* BubbleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32ECD2D1A51750019D125 /* BubbleImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		93E32EC52D1A4B750019D125 /* BubbleTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTextView.swift; sourceTree = "<group>"; };
 		93E32EC82D1A4BB80019D125 /* MessageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageItem.swift; sourceTree = "<group>"; };
 		93E32ECB2D1A4F210019D125 /* BubbleTailModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTailModifier.swift; sourceTree = "<group>"; };
+		93E32ECD2D1A51750019D125 /* BubbleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 		93E32EBA2D1A435B0019D125 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				93E32ECD2D1A51750019D125 /* BubbleImageView.swift */,
 				93E32EC52D1A4B750019D125 /* BubbleTextView.swift */,
 				93E32EC32D1A4B6C0019D125 /* BubbleTailView.swift */,
 				93E32EC12D1A49AA0019D125 /* MessageListView.swift */,
@@ -325,6 +328,7 @@
 				93E32EC42D1A4B6C0019D125 /* BubbleTailView.swift in Sources */,
 				93E32EAE2D1A40F90019D125 /* ChannelTabScreen.swift in Sources */,
 				93E32ECC2D1A4F210019D125 /* BubbleTailModifier.swift in Sources */,
+				93E32ECE2D1A51750019D125 /* BubbleImageView.swift in Sources */,
 				93E32EB82D1A42940019D125 /* SettingsTabScreen.swift in Sources */,
 				93E32E9F2D1A3AAC0019D125 /* SwiftUIMessengerApp.swift in Sources */,
 				93E32EC22D1A49AA0019D125 /* MessageListView.swift in Sources */,
