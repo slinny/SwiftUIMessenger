@@ -6,17 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		93E32E9B2D1A3AAC0019D125 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E32E932D1A3AAC0019D125 /* Preview Assets.xcassets */; };
+		93E32E9C2D1A3AAC0019D125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E32E952D1A3AAC0019D125 /* Assets.xcassets */; };
+		93E32E9D2D1A3AAC0019D125 /* CallsTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32E962D1A3AAC0019D125 /* CallsTabScreen.swift */; };
+		93E32E9E2D1A3AAC0019D125 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32E972D1A3AAC0019D125 /* MainTabView.swift */; };
+		93E32E9F2D1A3AAC0019D125 /* SwiftUIMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32E982D1A3AAC0019D125 /* SwiftUIMessengerApp.swift */; };
+		93E32EA02D1A3AAC0019D125 /* UpdatesTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32E992D1A3AAC0019D125 /* UpdatesTabScreen.swift */; };
+		93E32EAB2D1A3B540019D125 /* CommunityTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EAA2D1A3B540019D125 /* CommunityTabScreen.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		93A0BB7F2D1630B400D4B9D6 /* SwiftUIMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E32E932D1A3AAC0019D125 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93E32E952D1A3AAC0019D125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93E32E962D1A3AAC0019D125 /* CallsTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsTabScreen.swift; sourceTree = "<group>"; };
+		93E32E972D1A3AAC0019D125 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		93E32E982D1A3AAC0019D125 /* SwiftUIMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMessengerApp.swift; sourceTree = "<group>"; };
+		93E32E992D1A3AAC0019D125 /* UpdatesTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesTabScreen.swift; sourceTree = "<group>"; };
+		93E32EAA2D1A3B540019D125 /* CommunityTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTabScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		93A0BB812D1630B400D4B9D6 /* SwiftUIMessenger */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUIMessenger;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		93A0BB7C2D1630B400D4B9D6 /* Frameworks */ = {
@@ -32,7 +41,7 @@
 		93A0BB762D1630B400D4B9D6 = {
 			isa = PBXGroup;
 			children = (
-				93A0BB812D1630B400D4B9D6 /* SwiftUIMessenger */,
+				93E32E9A2D1A3AAC0019D125 /* SwiftUIMessenger */,
 				93A0BB802D1630B400D4B9D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,100 @@
 				93A0BB7F2D1630B400D4B9D6 /* SwiftUIMessenger.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		93E32E942D1A3AAC0019D125 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				93E32E932D1A3AAC0019D125 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93E32E9A2D1A3AAC0019D125 /* SwiftUIMessenger */ = {
+			isa = PBXGroup;
+			children = (
+				93E32EA12D1A3AB00019D125 /* Screens */,
+				93E32E942D1A3AAC0019D125 /* Preview Content */,
+				93E32E952D1A3AAC0019D125 /* Assets.xcassets */,
+				93E32E972D1A3AAC0019D125 /* MainTabView.swift */,
+				93E32E982D1A3AAC0019D125 /* SwiftUIMessengerApp.swift */,
+			);
+			path = SwiftUIMessenger;
+			sourceTree = "<group>";
+		};
+		93E32EA12D1A3AB00019D125 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				93E32EA62D1A3AE70019D125 /* Updates */,
+				93E32EA52D1A3AE30019D125 /* Calls */,
+				93E32EA42D1A3AD90019D125 /* Community */,
+				93E32EA32D1A3ACB0019D125 /* Channel */,
+				93E32EA22D1A3AC50019D125 /* Settings */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		93E32EA22D1A3AC50019D125 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		93E32EA32D1A3ACB0019D125 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		93E32EA42D1A3AD90019D125 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				93E32EA72D1A3AF90019D125 /* Views */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		93E32EA52D1A3AE30019D125 /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				93E32EA82D1A3B050019D125 /* Views */,
+			);
+			path = Calls;
+			sourceTree = "<group>";
+		};
+		93E32EA62D1A3AE70019D125 /* Updates */ = {
+			isa = PBXGroup;
+			children = (
+				93E32EA92D1A3B1E0019D125 /* Views */,
+			);
+			path = Updates;
+			sourceTree = "<group>";
+		};
+		93E32EA72D1A3AF90019D125 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93E32EAA2D1A3B540019D125 /* CommunityTabScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93E32EA82D1A3B050019D125 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93E32E962D1A3AAC0019D125 /* CallsTabScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93E32EA92D1A3B1E0019D125 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93E32E992D1A3AAC0019D125 /* UpdatesTabScreen.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +162,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				93A0BB812D1630B400D4B9D6 /* SwiftUIMessenger */,
 			);
 			name = SwiftUIMessenger;
 			packageProductDependencies = (
@@ -109,6 +209,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E32E9B2D1A3AAC0019D125 /* Preview Assets.xcassets in Resources */,
+				93E32E9C2D1A3AAC0019D125 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E32E9D2D1A3AAC0019D125 /* CallsTabScreen.swift in Sources */,
+				93E32E9E2D1A3AAC0019D125 /* MainTabView.swift in Sources */,
+				93E32EAB2D1A3B540019D125 /* CommunityTabScreen.swift in Sources */,
+				93E32E9F2D1A3AAC0019D125 /* SwiftUIMessengerApp.swift in Sources */,
+				93E32EA02D1A3AAC0019D125 /* UpdatesTabScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
