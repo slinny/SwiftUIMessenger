@@ -28,6 +28,7 @@
 		93E32EC92D1A4BB80019D125 /* MessageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32EC82D1A4BB80019D125 /* MessageItem.swift */; };
 		93E32ECC2D1A4F210019D125 /* BubbleTailModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32ECB2D1A4F210019D125 /* BubbleTailModifier.swift */; };
 		93E32ECE2D1A51750019D125 /* BubbleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32ECD2D1A51750019D125 /* BubbleImageView.swift */; };
+		93E32ED02D1A53F00019D125 /* BubbleAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32ECF2D1A53F00019D125 /* BubbleAudioView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		93E32EC82D1A4BB80019D125 /* MessageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageItem.swift; sourceTree = "<group>"; };
 		93E32ECB2D1A4F210019D125 /* BubbleTailModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTailModifier.swift; sourceTree = "<group>"; };
 		93E32ECD2D1A51750019D125 /* BubbleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleImageView.swift; sourceTree = "<group>"; };
+		93E32ECF2D1A53F00019D125 /* BubbleAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleAudioView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 		93E32EBA2D1A435B0019D125 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				93E32ECF2D1A53F00019D125 /* BubbleAudioView.swift */,
 				93E32ECD2D1A51750019D125 /* BubbleImageView.swift */,
 				93E32EC52D1A4B750019D125 /* BubbleTextView.swift */,
 				93E32EC32D1A4B6C0019D125 /* BubbleTailView.swift */,
@@ -336,6 +339,7 @@
 				93E32EC62D1A4B750019D125 /* BubbleTextView.swift in Sources */,
 				93E32EBC2D1A43620019D125 /* TextInputArea.swift in Sources */,
 				93E32EB62D1A428B0019D125 /* SettingsItemView.swift in Sources */,
+				93E32ED02D1A53F00019D125 /* BubbleAudioView.swift in Sources */,
 				93E32EB02D1A41070019D125 /* ChannelItemView.swift in Sources */,
 				93E32EA02D1A3AAC0019D125 /* UpdatesTabScreen.swift in Sources */,
 			);

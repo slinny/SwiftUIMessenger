@@ -57,10 +57,12 @@ extension MessageListController: UITableViewDelegate, UITableViewDataSource {
         
         cell.contentConfiguration = UIHostingConfiguration {
             switch message.type {
-            case .text:
-                BubbleTextView(item: message)
-            case .video, .photo:
-                BubbleImageView(item: message)
+                case .text:
+                    BubbleTextView(item: message)
+                case .video, .photo:
+                    BubbleImageView(item: message)
+                case .audio:
+                    BubbleAudioView(item: message)
             }
         }
         return cell

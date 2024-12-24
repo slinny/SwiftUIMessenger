@@ -15,10 +15,9 @@ struct BubbleTextView: View {
         VStack(alignment: item.horizontalAlignment, spacing: 3) {
             Text("Hello, World! How are you doing")
                 .padding(10)
-                .foregroundStyle(item.foregroundColor)
                 .background(item.backgroundColor)
                 .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
-                .applyTail(item.direction)
+//                .applyTail(item.direction)
             
             timeStampTextView()
         }

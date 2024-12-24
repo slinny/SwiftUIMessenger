@@ -25,12 +25,8 @@ struct MessageItem: Identifiable {
         return direction == .received ? .leading : .trailing
     }
     
-    var foregroundColor: Color {
-        return direction == .sent ? .white : .black
-    }
-    
     var backgroundColor: Color {
-        return direction == .sent ? .blue : .gray
+        return direction == .sent ? .blue.opacity(0.1) : .gray.opacity(0.2)
     }
 }
 
@@ -38,12 +34,13 @@ extension MessageItem {
     static let stubMessages: [MessageItem] = [
         MessageItem(text: "Hi There", type: .text, direction: .sent),
         MessageItem(text: "Check out this Photo", type: .photo, direction: .received),
-        MessageItem(text: "Play out this Video", type: .video, direction: .sent)
+        MessageItem(text: "Play out this Video", type: .video, direction: .sent),
+        MessageItem(text: "", type: .audio, direction: .received)
     ]
 }
 
 enum MessageType {
-    case text, photo, video
+    case text, photo, video, audio
 }
 
 enum MessageDirection {

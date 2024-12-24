@@ -12,11 +12,11 @@ struct BubbleTailView: View {
     var direction: MessageDirection
     
     private var backgroundColor: Color {
-        return direction == .received ? .gray : .blue
+        return direction == .received ? .gray.opacity(0.2) : .blue.opacity(0.1)
     }
     
     var body: some View {
-        Image(systemName: direction == .sent ? "arrow.uturn.forward" : "arrow.uturn.backward")
+        Image(systemName: direction == .sent ? "bubble.right.fill" : "bubble.left.fill")
             .renderingMode(.template)
             .resizable()
             .frame(width: 10, height: 10)
