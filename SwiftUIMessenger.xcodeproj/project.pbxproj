@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		939294C52D9D7EB10090CBF9 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939294C42D9D7EB10090CBF9 /* LoginScreen.swift */; };
+		939294C72D9D7ED50090CBF9 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939294C62D9D7ED50090CBF9 /* AuthHeaderView.swift */; };
+		939294C92D9D7F1C0090CBF9 /* AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939294C82D9D7F1C0090CBF9 /* AuthTextField.swift */; };
+		939294CB2D9D7F440090CBF9 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939294CA2D9D7F440090CBF9 /* AuthButton.swift */; };
 		93E32E9B2D1A3AAC0019D125 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E32E932D1A3AAC0019D125 /* Preview Assets.xcassets */; };
 		93E32E9C2D1A3AAC0019D125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E32E952D1A3AAC0019D125 /* Assets.xcassets */; };
 		93E32E9D2D1A3AAC0019D125 /* CallsTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32E962D1A3AAC0019D125 /* CallsTabScreen.swift */; };
@@ -32,6 +36,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		939294C42D9D7EB10090CBF9 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		939294C62D9D7ED50090CBF9 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		939294C82D9D7F1C0090CBF9 /* AuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextField.swift; sourceTree = "<group>"; };
+		939294CA2D9D7F440090CBF9 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 		93A0BB7F2D1630B400D4B9D6 /* SwiftUIMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E32E932D1A3AAC0019D125 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		93E32E952D1A3AAC0019D125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,6 +76,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		939294C02D9D7E680090CBF9 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				939294C32D9D7E770090CBF9 /* Views */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		939294C32D9D7E770090CBF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				939294C42D9D7EB10090CBF9 /* LoginScreen.swift */,
+				939294C62D9D7ED50090CBF9 /* AuthHeaderView.swift */,
+				939294C82D9D7F1C0090CBF9 /* AuthTextField.swift */,
+				939294CA2D9D7F440090CBF9 /* AuthButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		93A0BB762D1630B400D4B9D6 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +135,7 @@
 		93E32EA12D1A3AB00019D125 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				939294C02D9D7E680090CBF9 /* Auth */,
 				93E32EB92D1A43560019D125 /* Chat */,
 				93E32EA62D1A3AE70019D125 /* Updates */,
 				93E32EA52D1A3AE30019D125 /* Calls */,
@@ -279,7 +307,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					93A0BB7E2D1630B400D4B9D6 = {
 						CreatedOnToolsVersion = 16.2;
@@ -323,8 +351,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				93E32EBE2D1A43800019D125 /* ChatRoomScreen.swift in Sources */,
+				939294CB2D9D7F440090CBF9 /* AuthButton.swift in Sources */,
 				93E32E9D2D1A3AAC0019D125 /* CallsTabScreen.swift in Sources */,
 				93E32E9E2D1A3AAC0019D125 /* MainTabView.swift in Sources */,
+				939294C72D9D7ED50090CBF9 /* AuthHeaderView.swift in Sources */,
 				93E32EC92D1A4BB80019D125 /* MessageItem.swift in Sources */,
 				93E32EAB2D1A3B540019D125 /* CommunityTabScreen.swift in Sources */,
 				93E32EC02D1A49800019D125 /* MessageListController.swift in Sources */,
@@ -333,11 +363,13 @@
 				93E32ECC2D1A4F210019D125 /* BubbleTailModifier.swift in Sources */,
 				93E32ECE2D1A51750019D125 /* BubbleImageView.swift in Sources */,
 				93E32EB82D1A42940019D125 /* SettingsTabScreen.swift in Sources */,
+				939294C52D9D7EB10090CBF9 /* LoginScreen.swift in Sources */,
 				93E32E9F2D1A3AAC0019D125 /* SwiftUIMessengerApp.swift in Sources */,
 				93E32EC22D1A49AA0019D125 /* MessageListView.swift in Sources */,
 				93E32EB42D1A42800019D125 /* SettingsItem.swift in Sources */,
 				93E32EC62D1A4B750019D125 /* BubbleTextView.swift in Sources */,
 				93E32EBC2D1A43620019D125 /* TextInputArea.swift in Sources */,
+				939294C92D9D7F1C0090CBF9 /* AuthTextField.swift in Sources */,
 				93E32EB62D1A428B0019D125 /* SettingsItemView.swift in Sources */,
 				93E32ED02D1A53F00019D125 /* BubbleAudioView.swift in Sources */,
 				93E32EB02D1A41070019D125 /* ChannelItemView.swift in Sources */,
@@ -383,6 +415,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PRAK7FCXFF;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -446,6 +479,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PRAK7FCXFF;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -475,7 +509,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMessenger/Preview Content\"";
-				DEVELOPMENT_TEAM = PRAK7FCXFF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -504,7 +537,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMessenger/Preview Content\"";
-				DEVELOPMENT_TEAM = PRAK7FCXFF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
