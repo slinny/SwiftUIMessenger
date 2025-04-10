@@ -10,31 +10,31 @@ import SwiftUI
 struct MainTabView: View {
     var body: some View {
         TabView {
-            placeholderItemView(Tab.updates.title)
+            UpdatesTabScreen()
                 .tabItem {
                     Image(systemName: Tab.updates.icon)
                     Text(Tab.updates.title)
                 }
             
-            placeholderItemView(Tab.calls.title)
+            CallsTabScreen()
                 .tabItem {
                     Image(systemName: Tab.calls.icon)
                     Text(Tab.calls.title)
                 }
             
-            placeholderItemView(Tab.communities.title)
+            CommunityTabScreen()
                 .tabItem {
                     Image(systemName: Tab.communities.icon)
                     Text(Tab.communities.title)
                 }
             
-            placeholderItemView(Tab.chats.title)
+            ChannelTabScreen()
                 .tabItem {
                     Image(systemName: Tab.chats.icon)
                     Text(Tab.chats.title)
                 }
             
-            placeholderItemView(Tab.settings.title)
+            SettingsTabScreen()
                 .tabItem {
                     Image(systemName: Tab.settings.icon)
                     Text(Tab.settings.title)
