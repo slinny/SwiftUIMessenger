@@ -1,0 +1,19 @@
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+DerivedData/
+build/
+
+# Firebase config file
+GoogleService-Info.plist
+
+# Swift Package Manager
+/.build/
+/Packages/
+Package.resolved
+
+# Other common files to ignore
+*.log
+*.swp
+*.swo

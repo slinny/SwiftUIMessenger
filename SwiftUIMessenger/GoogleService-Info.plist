@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyC8xk-09b2CVI1PZ3DTrBIKV8MIXi4EiE8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>745243297058</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.siranli.development.SwiftUIMessenger</string>
+	<key>PROJECT_ID</key>
+	<string>fabled-infinity-250216</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fabled-infinity-250216.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:745243297058:ios:6039a58f172163b06dd17b</string>
+</dict>
+</plist>
