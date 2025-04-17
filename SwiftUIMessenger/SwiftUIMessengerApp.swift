@@ -23,7 +23,7 @@ struct SwiftUIMessengerApp: App {
     
     var body: some Scene {
         WindowGroup {
-            MainTabView()
+            LoginScreen()
         }
     }
 }
