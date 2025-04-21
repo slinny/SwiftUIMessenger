@@ -8,6 +8,13 @@
 import SwiftUI
 
 struct MainTabView: View {
+    private let currentUser: UserItem
+    
+    init(_ currentUser: UserItem) {
+        self.currentUser = currentUser
+        
+    }
+    
     var body: some View {
         TabView {
             UpdatesTabScreen()
@@ -40,6 +47,13 @@ struct MainTabView: View {
                     Text(Tab.settings.title)
                 }
         }
+    }
+    
+    private func makeTabBarOpaque() {
+        let appearance = UITabBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        UITabBar.appearance().standardAppearance = appearance
+        UITabBar.appearance().scrollEdgeAppearance = appearance
     }
 }
 
@@ -87,5 +101,5 @@ extension MainTabView {
 }
 
 #Preview {
-    MainTabView()
+    MainTabView(.placeholder)
 }
