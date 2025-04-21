@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9314B15F2DB5E62900B3E17D /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314B15E2DB5E62900B3E17D /* UserItem.swift */; };
+		9314B1622DB5E69C00B3E17D /* FirebaseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314B1612DB5E69C00B3E17D /* FirebaseConstants.swift */; };
 		938E490D2DA7B5DD00AA7E36 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 938E490C2DA7B5DD00AA7E36 /* FirebaseAuth */; };
 		938E490F2DA7B5DD00AA7E36 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 938E490E2DA7B5DD00AA7E36 /* FirebaseDatabase */; };
 		938E49112DA7B5DD00AA7E36 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 938E49102DA7B5DD00AA7E36 /* FirebaseMessaging */; };
@@ -46,6 +48,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9314B15E2DB5E62900B3E17D /* UserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
+		9314B1612DB5E69C00B3E17D /* FirebaseConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConstants.swift; sourceTree = "<group>"; };
 		938E49142DA7B7A200AA7E36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		938E49172DA7B98500AA7E36 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		938E49192DA7BF0700AA7E36 /* AuthProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
@@ -97,6 +101,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9314B15D2DB5E5F300B3E17D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9314B15E2DB5E62900B3E17D /* UserItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9314B1602DB5E68000B3E17D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9314B1612DB5E69C00B3E17D /* FirebaseConstants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		938E49182DA7BEF300AA7E36 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +128,7 @@
 		939294C02D9D7E680090CBF9 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				9314B15D2DB5E5F300B3E17D /* Model */,
 				938E49182DA7BEF300AA7E36 /* Services */,
 				93C3A7D62D9DA3E6003396D0 /* ViewModels */,
 				939294C32D9D7E770090CBF9 /* Views */,
@@ -163,6 +184,7 @@
 		93E32E9A2D1A3AAC0019D125 /* SwiftUIMessenger */ = {
 			isa = PBXGroup;
 			children = (
+				9314B1602DB5E68000B3E17D /* Utils */,
 				93E32ECA2D1A4F1E0019D125 /* Helpers */,
 				93E32EA12D1A3AB00019D125 /* Screens */,
 				93E32E942D1A3AAC0019D125 /* Preview Content */,
@@ -431,8 +453,10 @@
 				93FFD3AF2DB14BCD00ACB1F6 /* RootScreenModel.swift in Sources */,
 				93E32E9D2D1A3AAC0019D125 /* CallsTabScreen.swift in Sources */,
 				93E32E9E2D1A3AAC0019D125 /* MainTabView.swift in Sources */,
+				9314B15F2DB5E62900B3E17D /* UserItem.swift in Sources */,
 				939294C72D9D7ED50090CBF9 /* AuthHeaderView.swift in Sources */,
 				93E32EC92D1A4BB80019D125 /* MessageItem.swift in Sources */,
+				9314B1622DB5E69C00B3E17D /* FirebaseConstants.swift in Sources */,
 				938E491A2DA7BF0700AA7E36 /* AuthProvider.swift in Sources */,
 				93E32EAB2D1A3B540019D125 /* CommunityTabScreen.swift in Sources */,
 				93E32EC02D1A49800019D125 /* MessageListController.swift in Sources */,
