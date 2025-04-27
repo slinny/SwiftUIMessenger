@@ -19,9 +19,9 @@
 		939294C92D9D7F1C0090CBF9 /* AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939294C82D9D7F1C0090CBF9 /* AuthTextField.swift */; };
 		939294CB2D9D7F440090CBF9 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939294CA2D9D7F440090CBF9 /* AuthButton.swift */; };
 		93B52EE22DBA0CD7006EC529 /* ChatPartnerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B52EE12DBA0CD7006EC529 /* ChatPartnerRowView.swift */; };
+		93B52EE52DBA126D006EC529 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B52EE42DBA126D006EC529 /* GoogleService-Info.plist */; };
 		93C3A7D82D9DA402003396D0 /* AuthScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C3A7D72D9DA402003396D0 /* AuthScreenModel.swift */; };
 		93C3A7DA2D9DA442003396D0 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C3A7D92D9DA442003396D0 /* SignUpScreen.swift */; };
-		93E01FF22DB821AB0008CFA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93E01FF12DB821AB0008CFA6 /* GoogleService-Info.plist */; };
 		93E01FF42DB822140008CFA6 /* ChatPartnerPickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E01FF32DB822140008CFA6 /* ChatPartnerPickerScreen.swift */; };
 		93E32E9B2D1A3AAC0019D125 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E32E932D1A3AAC0019D125 /* Preview Assets.xcassets */; };
 		93E32E9C2D1A3AAC0019D125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E32E952D1A3AAC0019D125 /* Assets.xcassets */; };
@@ -45,6 +45,8 @@
 		93E32ECC2D1A4F210019D125 /* BubbleTailModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32ECB2D1A4F210019D125 /* BubbleTailModifier.swift */; };
 		93E32ECE2D1A51750019D125 /* BubbleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32ECD2D1A51750019D125 /* BubbleImageView.swift */; };
 		93E32ED02D1A53F00019D125 /* BubbleAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E32ECF2D1A53F00019D125 /* BubbleAudioView.swift */; };
+		93E57FD82DBA970D00AA7B3E /* ChatPartnerPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E57FD72DBA970D00AA7B3E /* ChatPartnerPickerViewModel.swift */; };
+		93E57FDA2DBA989700AA7B3E /* AddGroupChatPartnersScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E57FD92DBA989700AA7B3E /* AddGroupChatPartnersScreen.swift */; };
 		93FFD3AD2DB14BAB00ACB1F6 /* RootScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFD3AC2DB14BAB00ACB1F6 /* RootScreen.swift */; };
 		93FFD3AF2DB14BCD00ACB1F6 /* RootScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FFD3AE2DB14BCD00ACB1F6 /* RootScreenModel.swift */; };
 /* End PBXBuildFile section */
@@ -60,9 +62,9 @@
 		939294CA2D9D7F440090CBF9 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 		93A0BB7F2D1630B400D4B9D6 /* SwiftUIMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B52EE12DBA0CD7006EC529 /* ChatPartnerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPartnerRowView.swift; sourceTree = "<group>"; };
+		93B52EE42DBA126D006EC529 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		93C3A7D72D9DA402003396D0 /* AuthScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthScreenModel.swift; sourceTree = "<group>"; };
 		93C3A7D92D9DA442003396D0 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
-		93E01FF12DB821AB0008CFA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		93E01FF32DB822140008CFA6 /* ChatPartnerPickerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPartnerPickerScreen.swift; sourceTree = "<group>"; };
 		93E32E932D1A3AAC0019D125 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		93E32E952D1A3AAC0019D125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +88,8 @@
 		93E32ECB2D1A4F210019D125 /* BubbleTailModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTailModifier.swift; sourceTree = "<group>"; };
 		93E32ECD2D1A51750019D125 /* BubbleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleImageView.swift; sourceTree = "<group>"; };
 		93E32ECF2D1A53F00019D125 /* BubbleAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleAudioView.swift; sourceTree = "<group>"; };
+		93E57FD72DBA970D00AA7B3E /* ChatPartnerPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPartnerPickerViewModel.swift; sourceTree = "<group>"; };
+		93E57FD92DBA989700AA7B3E /* AddGroupChatPartnersScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupChatPartnersScreen.swift; sourceTree = "<group>"; };
 		93FFD3AC2DB14BAB00ACB1F6 /* RootScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootScreen.swift; sourceTree = "<group>"; };
 		93FFD3AE2DB14BCD00ACB1F6 /* RootScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootScreenModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,7 +162,7 @@
 				938E49172DA7B98500AA7E36 /* .gitignore */,
 				93E32E9A2D1A3AAC0019D125 /* SwiftUIMessenger */,
 				93A0BB802D1630B400D4B9D6 /* Products */,
-				93E01FF12DB821AB0008CFA6 /* GoogleService-Info.plist */,
+				93B52EE42DBA126D006EC529 /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -227,6 +231,7 @@
 		93E32EA32D1A3ACB0019D125 /* Channel */ = {
 			isa = PBXGroup;
 			children = (
+				93E57FD62DBA96F800AA7B3E /* ViewModel */,
 				93E32EAC2D1A40E70019D125 /* Views */,
 			);
 			path = Channel;
@@ -287,6 +292,7 @@
 				93E32EAF2D1A41070019D125 /* ChannelItemView.swift */,
 				93E01FF32DB822140008CFA6 /* ChatPartnerPickerScreen.swift */,
 				93B52EE12DBA0CD7006EC529 /* ChatPartnerRowView.swift */,
+				93E57FD92DBA989700AA7B3E /* AddGroupChatPartnersScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -346,6 +352,14 @@
 				93E32ECB2D1A4F210019D125 /* BubbleTailModifier.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		93E57FD62DBA96F800AA7B3E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				93E57FD72DBA970D00AA7B3E /* ChatPartnerPickerViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		93FFD3A92DB14B8000ACB1F6 /* Root */ = {
@@ -443,7 +457,7 @@
 			files = (
 				93E32E9B2D1A3AAC0019D125 /* Preview Assets.xcassets in Resources */,
 				93E32E9C2D1A3AAC0019D125 /* Assets.xcassets in Resources */,
-				93E01FF22DB821AB0008CFA6 /* GoogleService-Info.plist in Resources */,
+				93B52EE52DBA126D006EC529 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +485,7 @@
 				93FFD3AD2DB14BAB00ACB1F6 /* RootScreen.swift in Sources */,
 				93E32EAE2D1A40F90019D125 /* ChannelTabScreen.swift in Sources */,
 				93E32ECC2D1A4F210019D125 /* BubbleTailModifier.swift in Sources */,
+				93E57FDA2DBA989700AA7B3E /* AddGroupChatPartnersScreen.swift in Sources */,
 				93E32ECE2D1A51750019D125 /* BubbleImageView.swift in Sources */,
 				93E01FF42DB822140008CFA6 /* ChatPartnerPickerScreen.swift in Sources */,
 				93C3A7DA2D9DA442003396D0 /* SignUpScreen.swift in Sources */,
@@ -486,6 +501,7 @@
 				93E32EB62D1A428B0019D125 /* SettingsItemView.swift in Sources */,
 				93E32ED02D1A53F00019D125 /* BubbleAudioView.swift in Sources */,
 				93E32EB02D1A41070019D125 /* ChannelItemView.swift in Sources */,
+				93E57FD82DBA970D00AA7B3E /* ChatPartnerPickerViewModel.swift in Sources */,
 				93E32EA02D1A3AAC0019D125 /* UpdatesTabScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
