@@ -21,7 +21,7 @@ struct GroupPartnerPickerScreen: View {
             }
             
             Section {
-                ForEach(UserItem.placeholders) { item in
+                ForEach(viewModel.users) { item in
                     Button {
                         viewModel.handleItemSelection(item)
                     } label: {

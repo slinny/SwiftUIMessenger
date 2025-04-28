@@ -23,6 +23,7 @@
 		939294CB2D9D7F440090CBF9 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939294CA2D9D7F440090CBF9 /* AuthButton.swift */; };
 		93B52EE22DBA0CD7006EC529 /* ChatPartnerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B52EE12DBA0CD7006EC529 /* ChatPartnerRowView.swift */; };
 		93B52EE52DBA126D006EC529 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B52EE42DBA126D006EC529 /* GoogleService-Info.plist */; };
+		93C33AFA2DC018A50081E771 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C33AF92DC018A50081E771 /* UserService.swift */; };
 		93C3A7D82D9DA402003396D0 /* AuthScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C3A7D72D9DA402003396D0 /* AuthScreenModel.swift */; };
 		93C3A7DA2D9DA442003396D0 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C3A7D92D9DA442003396D0 /* SignUpScreen.swift */; };
 		93E01FF42DB822140008CFA6 /* ChatPartnerPickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E01FF32DB822140008CFA6 /* ChatPartnerPickerScreen.swift */; };
@@ -68,6 +69,7 @@
 		93A0BB7F2D1630B400D4B9D6 /* SwiftUIMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B52EE12DBA0CD7006EC529 /* ChatPartnerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPartnerRowView.swift; sourceTree = "<group>"; };
 		93B52EE42DBA126D006EC529 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93C33AF92DC018A50081E771 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		93C3A7D72D9DA402003396D0 /* AuthScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthScreenModel.swift; sourceTree = "<group>"; };
 		93C3A7D92D9DA442003396D0 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
 		93E01FF32DB822140008CFA6 /* ChatPartnerPickerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPartnerPickerScreen.swift; sourceTree = "<group>"; };
@@ -178,6 +180,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		93C33AF82DC018900081E771 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				93C33AF92DC018A50081E771 /* UserService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		93C3A7D62D9DA3E6003396D0 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +207,7 @@
 		93E32E9A2D1A3AAC0019D125 /* SwiftUIMessenger */ = {
 			isa = PBXGroup;
 			children = (
+				93C33AF82DC018900081E771 /* Service */,
 				9314B1602DB5E68000B3E17D /* Utils */,
 				93E32ECA2D1A4F1E0019D125 /* Helpers */,
 				93E32EA12D1A3AB00019D125 /* Screens */,
@@ -506,6 +517,7 @@
 				931DA3C82DBF23CD0035E069 /* NewGroupSetUpScreen.swift in Sources */,
 				931DA3C62DBF20A90035E069 /* SelectedChatPartnerView.swift in Sources */,
 				939294C92D9D7F1C0090CBF9 /* AuthTextField.swift in Sources */,
+				93C33AFA2DC018A50081E771 /* UserService.swift in Sources */,
 				93E32EB62D1A428B0019D125 /* SettingsItemView.swift in Sources */,
 				93E32ED02D1A53F00019D125 /* BubbleAudioView.swift in Sources */,
 				93E32EB02D1A41070019D125 /* ChannelItemView.swift in Sources */,
