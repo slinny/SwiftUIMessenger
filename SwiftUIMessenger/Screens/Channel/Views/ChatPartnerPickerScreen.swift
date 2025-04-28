@@ -54,9 +54,9 @@ extension ChatPartnerPickerScreen {
     private func destinationView(for route: ChannelCreationRoute) -> some View {
         switch route {
             case .addGroupChatMembers:
-                AddGroupChatPartnersScreen(viewModel: viewModel)
+                GroupPartnerPickerScreen(viewModel: viewModel)
             case .setUpGroupChat:
-                Text("SETUP GROUP CHAT")
+                NewGroupSetUpScreen(viewModel: viewModel)
         }
     }
 }
