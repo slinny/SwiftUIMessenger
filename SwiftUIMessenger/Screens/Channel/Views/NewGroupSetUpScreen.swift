@@ -27,7 +27,10 @@ struct NewGroupSetUpScreen: View {
                     viewModel.handleItemSelection(user)
                 }
             } header: {
-                Text("Participants: 12/12")
+                let count = viewModel.selectedChatPartners.count
+                let maxCount = ChannelContants.maxGroupParticipants
+                
+                Text("Participants: \(count) of \(maxCount)")
                     .bold()
             }
             .listRowBackground(Color.clear)
@@ -41,8 +44,7 @@ struct NewGroupSetUpScreen: View {
     
     private func channelSetUpHeaderView() -> some View {
         HStack {
-            Circle()
-                .frame(width: 60, height: 60)
+            profileImageView()
             
             TextField(
                 "",
@@ -50,6 +52,20 @@ struct NewGroupSetUpScreen: View {
                 prompt: Text("Group Name (optional)"),
                 axis: .vertical
             )
+        }
+    }
+    
+    private func profileImageView() -> some View {
+        Button {
+            
+        } label: {
+            ZStack {
+                Image(systemName: "camera.fill")
+                    .imageScale(.large)
+            }
+            .frame(width: 60, height: 60)
+            .background(Color(.systemGray5))
+            .clipShape(.circle)
         }
     }
     
