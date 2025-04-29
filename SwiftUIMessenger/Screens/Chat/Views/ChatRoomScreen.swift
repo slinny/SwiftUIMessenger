@@ -5,10 +5,11 @@
 //  Created by Siran Li on 12/23/24.
 //
 
-
 import SwiftUI
 
 struct ChatRoomScreen: View {
+    let channel: ChannelItem
+    
     var body: some View {
         MessageListView()
             .toolbar(.hidden, for: .tabBar)
@@ -31,7 +32,7 @@ extension ChatRoomScreen {
                 Circle()
                     .frame(width: 35, height: 30)
                 
-                Text("QaUser12")
+                Text(channel.title)
                     .bold()
             }
         }
@@ -57,6 +58,6 @@ extension ChatRoomScreen {
 
 #Preview {
     NavigationStack {
-        ChatRoomScreen()
+        ChatRoomScreen(channel: .placeholder)
     }
 }

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Firebase
 import FirebaseAuth
 
 enum ChannelCreationRoute {
@@ -42,12 +43,15 @@ final class ChatPartnerPickerViewModel: ObservableObject {
         return !users.isEmpty
     }
     
+    private var isDirectChannel: Bool {
+        return selectedChatPartners.count == 1
+    }
+    
     init() {
         Task {
             await fetchUsers()
         }
     }
-    
     
     // MARK: - Public Methods
     func fetchUsers() async {
@@ -56,7 +60,7 @@ final class ChatPartnerPickerViewModel: ObservableObject {
             var fetchedUsers = userNode.users
             guard let currentUid = Auth.auth().currentUser?.uid else { return }
             fetchedUsers = fetchedUsers.filter { $0.uid != currentUid }
-            self.users.append(contentsOf: userNode.users)
+            self.users.append(contentsOf: fetchedUsers)
             self.lastCursor = userNode.currentCursor
             print("lastCursor: \(lastCursor ?? "") \(users.count)")
         } catch {
@@ -102,6 +106,7 @@ final class ChatPartnerPickerViewModel: ObservableObject {
         ]
         
         if let channelName = channelName, !channelName.isEmptyOrWhiteSpace {
+            
             channelDict[.name] = channelName
         }
                 
@@ -114,7 +119,15 @@ final class ChatPartnerPickerViewModel: ObservableObject {
             FirebaseConstants.UserDirectChannels.child(userId).child(channelId).setValue(true)
         }
         
-        let newChannelItem = ChannelItem(channelDict)
+        /// Makes sure that a direct channel is unique
+        if isDirectChannel {
+            let chatPartner = selectedChatPartners[0]
+            FirebaseConstants.UserDirectChannels.child(currentUid).child(chatPartner.uid).setValue([channelId: true])
+            FirebaseConstants.UserDirectChannels.child(chatPartner.uid).child(currentUid).setValue([channelId: true])
+        }
+        
+        var newChannelItem = ChannelItem(channelDict)
+        newChannelItem.members = selectedChatPartners
         return .success(newChannelItem)
         
     }

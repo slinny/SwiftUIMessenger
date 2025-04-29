@@ -5,7 +5,6 @@
 //  Created by Siran Li on 12/23/24.
 //
 
-
 import SwiftUI
 
 struct ChannelTabScreen: View {
@@ -19,7 +18,7 @@ struct ChannelTabScreen: View {
                 
                 ForEach(0..<12) { _ in
                     NavigationLink {
-                        ChatRoomScreen()
+                        ChatRoomScreen(channel: .placeholder)
                     } label: {
                         ChannelItemView()
                     }
@@ -39,8 +38,8 @@ struct ChannelTabScreen: View {
                 ChatPartnerPickerScreen(onCreate: viewModel.onNewChannelCreation)
             }
             .navigationDestination(isPresented: $viewModel.navigateToChatRoom) {
-                if let _ = viewModel.newChannel {
-                    ChatRoomScreen()
+                if let newChannel = viewModel.newChannel {
+                    ChatRoomScreen(channel: newChannel)
                 }
             }
         }
@@ -95,7 +94,6 @@ extension ChannelTabScreen {
             Image(systemName: "camera")
         }
     }
-    
     
     private func archivedButton() -> some View {
         Button {
