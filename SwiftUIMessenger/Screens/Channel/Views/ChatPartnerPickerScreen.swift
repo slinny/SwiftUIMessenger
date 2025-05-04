@@ -62,6 +62,9 @@ struct ChatPartnerPickerScreen: View {
             .toolbar {
                 trailingNavItem()
             }
+            .onAppear {
+                viewModel.deSelectAllChatPartners()
+            }
         }
     }
     
@@ -82,7 +85,7 @@ extension ChatPartnerPickerScreen {
             case .addGroupChatMembers:
                 GroupPartnerPickerScreen(viewModel: viewModel)
             case .setUpGroupChat:
-                NewGroupSetUpScreen(viewModel: viewModel)
+                NewGroupSetUpScreen(viewModel: viewModel, onCreate: onCreate)
         }
     }
 }
