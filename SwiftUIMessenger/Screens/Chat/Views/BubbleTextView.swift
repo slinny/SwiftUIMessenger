@@ -5,7 +5,6 @@
 //  Created by Siran Li on 12/23/24.
 //
 
-
 import SwiftUI
 
 struct BubbleTextView: View {
@@ -13,11 +12,11 @@ struct BubbleTextView: View {
     
     var body: some View {
         VStack(alignment: item.horizontalAlignment, spacing: 3) {
-            Text("Hello, World! How are you doing")
+            Text(item.text)
                 .padding(10)
                 .background(item.backgroundColor)
                 .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
-//                .applyTail(item.direction)
+                .applyTail(item.direction)
             
             timeStampTextView()
         }
