@@ -12,6 +12,8 @@
 		931DA3C42DBF20790035E069 /* GroupPartnerPickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931DA3C32DBF20790035E069 /* GroupPartnerPickerScreen.swift */; };
 		931DA3C62DBF20A90035E069 /* SelectedChatPartnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931DA3C52DBF20A90035E069 /* SelectedChatPartnerView.swift */; };
 		931DA3C82DBF23CD0035E069 /* NewGroupSetUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931DA3C72DBF23CD0035E069 /* NewGroupSetUpScreen.swift */; };
+		938441752DCA1C370083DEE0 /* ChannelCreationTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938441742DCA1C370083DEE0 /* ChannelCreationTextView.swift */; };
+		938441772DCA1CBB0083DEE0 /* AdminMessageTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938441762DCA1CBB0083DEE0 /* AdminMessageTextView.swift */; };
 		938711132DC0A18E0051F65A /* ChannelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938711122DC0A18E0051F65A /* ChannelItem.swift */; };
 		938711152DC0A5B70051F65A /* ChannelTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938711142DC0A5B70051F65A /* ChannelTabViewModel.swift */; };
 		938711182DC0A8ED0051F65A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938711172DC0A8ED0051F65A /* String+Extensions.swift */; };
@@ -66,6 +68,8 @@
 		931DA3C32DBF20790035E069 /* GroupPartnerPickerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPartnerPickerScreen.swift; sourceTree = "<group>"; };
 		931DA3C52DBF20A90035E069 /* SelectedChatPartnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedChatPartnerView.swift; sourceTree = "<group>"; };
 		931DA3C72DBF23CD0035E069 /* NewGroupSetUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupSetUpScreen.swift; sourceTree = "<group>"; };
+		938441742DCA1C370083DEE0 /* ChannelCreationTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCreationTextView.swift; sourceTree = "<group>"; };
+		938441762DCA1CBB0083DEE0 /* AdminMessageTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMessageTextView.swift; sourceTree = "<group>"; };
 		938711122DC0A18E0051F65A /* ChannelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelItem.swift; sourceTree = "<group>"; };
 		938711142DC0A5B70051F65A /* ChannelTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTabViewModel.swift; sourceTree = "<group>"; };
 		938711172DC0A8ED0051F65A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
@@ -391,6 +395,8 @@
 				93E32EBF2D1A49800019D125 /* MessageListController.swift */,
 				93E32EBD2D1A43800019D125 /* ChatRoomScreen.swift */,
 				93E32EBB2D1A43620019D125 /* TextInputArea.swift */,
+				938441742DCA1C370083DEE0 /* ChannelCreationTextView.swift */,
+				938441762DCA1CBB0083DEE0 /* AdminMessageTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -540,6 +546,7 @@
 				9314B1622DB5E69C00B3E17D /* FirebaseConstants.swift in Sources */,
 				938E491A2DA7BF0700AA7E36 /* AuthProvider.swift in Sources */,
 				93E32EAB2D1A3B540019D125 /* CommunityTabScreen.swift in Sources */,
+				938441772DCA1CBB0083DEE0 /* AdminMessageTextView.swift in Sources */,
 				93E32EC02D1A49800019D125 /* MessageListController.swift in Sources */,
 				938711182DC0A8ED0051F65A /* String+Extensions.swift in Sources */,
 				93E32EC42D1A4B6C0019D125 /* BubbleTailView.swift in Sources */,
@@ -553,6 +560,7 @@
 				93E32ECE2D1A51750019D125 /* BubbleImageView.swift in Sources */,
 				93E01FF42DB822140008CFA6 /* ChatPartnerPickerScreen.swift in Sources */,
 				93C3A7DA2D9DA442003396D0 /* SignUpScreen.swift in Sources */,
+				938441752DCA1C370083DEE0 /* ChannelCreationTextView.swift in Sources */,
 				93E32EB82D1A42940019D125 /* SettingsTabScreen.swift in Sources */,
 				939294C52D9D7EB10090CBF9 /* LoginScreen.swift in Sources */,
 				93E32E9F2D1A3AAC0019D125 /* SwiftUIMessengerApp.swift in Sources */,
