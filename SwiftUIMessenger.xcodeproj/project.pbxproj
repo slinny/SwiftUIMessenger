@@ -10,6 +10,9 @@
 		93012B2E2DCD1FCB0046F6AF /* MediaAttachmentPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93012B2D2DCD1FCB0046F6AF /* MediaAttachmentPreview.swift */; };
 		9314B15F2DB5E62900B3E17D /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314B15E2DB5E62900B3E17D /* UserItem.swift */; };
 		9314B1622DB5E69C00B3E17D /* FirebaseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314B1612DB5E69C00B3E17D /* FirebaseConstants.swift */; };
+		9314BDBB2DCD4FD5005FD9F0 /* PhotosPickerItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314BDBA2DCD4FD5005FD9F0 /* PhotosPickerItem+Extensions.swift */; };
+		9314BDBD2DCD5423005FD9F0 /* MediaPickerItems_Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314BDBC2DCD5423005FD9F0 /* MediaPickerItems_Types.swift */; };
+		9314BDBF2DCD546D005FD9F0 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314BDBE2DCD546D005FD9F0 /* URL+Extensions.swift */; };
 		931DA3C42DBF20790035E069 /* GroupPartnerPickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931DA3C32DBF20790035E069 /* GroupPartnerPickerScreen.swift */; };
 		931DA3C62DBF20A90035E069 /* SelectedChatPartnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931DA3C52DBF20A90035E069 /* SelectedChatPartnerView.swift */; };
 		931DA3C82DBF23CD0035E069 /* NewGroupSetUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931DA3C72DBF23CD0035E069 /* NewGroupSetUpScreen.swift */; };
@@ -70,6 +73,9 @@
 		93012B2D2DCD1FCB0046F6AF /* MediaAttachmentPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaAttachmentPreview.swift; sourceTree = "<group>"; };
 		9314B15E2DB5E62900B3E17D /* UserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
 		9314B1612DB5E69C00B3E17D /* FirebaseConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConstants.swift; sourceTree = "<group>"; };
+		9314BDBA2DCD4FD5005FD9F0 /* PhotosPickerItem+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotosPickerItem+Extensions.swift"; sourceTree = "<group>"; };
+		9314BDBC2DCD5423005FD9F0 /* MediaPickerItems_Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPickerItems_Types.swift; sourceTree = "<group>"; };
+		9314BDBE2DCD546D005FD9F0 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 		931DA3C32DBF20790035E069 /* GroupPartnerPickerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPartnerPickerScreen.swift; sourceTree = "<group>"; };
 		931DA3C52DBF20A90035E069 /* SelectedChatPartnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedChatPartnerView.swift; sourceTree = "<group>"; };
 		931DA3C72DBF23CD0035E069 /* NewGroupSetUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupSetUpScreen.swift; sourceTree = "<group>"; };
@@ -176,6 +182,8 @@
 			children = (
 				938711172DC0A8ED0051F65A /* String+Extensions.swift */,
 				93397DF82DCA6FAE00B25F2E /* Date+Extensions.swift */,
+				9314BDBA2DCD4FD5005FD9F0 /* PhotosPickerItem+Extensions.swift */,
+				9314BDBE2DCD546D005FD9F0 /* URL+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -425,6 +433,7 @@
 			children = (
 				93E32EC82D1A4BB80019D125 /* MessageItem.swift */,
 				93E38ECB2DC73B8B006BBCD6 /* MessageItems+Types.swift */,
+				9314BDBC2DCD5423005FD9F0 /* MediaPickerItems_Types.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -559,6 +568,7 @@
 				93FFD3AF2DB14BCD00ACB1F6 /* RootScreenModel.swift in Sources */,
 				93397DF72DCA6B5500B25F2E /* CircularProfileImageView.swift in Sources */,
 				93E32E9D2D1A3AAC0019D125 /* CallsTabScreen.swift in Sources */,
+				9314BDBD2DCD5423005FD9F0 /* MediaPickerItems_Types.swift in Sources */,
 				93E32E9E2D1A3AAC0019D125 /* MainTabView.swift in Sources */,
 				9314B15F2DB5E62900B3E17D /* UserItem.swift in Sources */,
 				939294C72D9D7ED50090CBF9 /* AuthHeaderView.swift in Sources */,
@@ -570,6 +580,7 @@
 				93E32EAB2D1A3B540019D125 /* CommunityTabScreen.swift in Sources */,
 				938441772DCA1CBB0083DEE0 /* AdminMessageTextView.swift in Sources */,
 				93E32EC02D1A49800019D125 /* MessageListController.swift in Sources */,
+				9314BDBF2DCD546D005FD9F0 /* URL+Extensions.swift in Sources */,
 				938711182DC0A8ED0051F65A /* String+Extensions.swift in Sources */,
 				93E32EC42D1A4B6C0019D125 /* BubbleTailView.swift in Sources */,
 				93C3A7D82D9DA402003396D0 /* AuthScreenModel.swift in Sources */,
@@ -603,6 +614,7 @@
 				93E32EB02D1A41070019D125 /* ChannelItemView.swift in Sources */,
 				93E57FD82DBA970D00AA7B3E /* ChatPartnerPickerViewModel.swift in Sources */,
 				93E32EA02D1A3AAC0019D125 /* UpdatesTabScreen.swift in Sources */,
+				9314BDBB2DCD4FD5005FD9F0 /* PhotosPickerItem+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
