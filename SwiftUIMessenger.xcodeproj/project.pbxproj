@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93012B2E2DCD1FCB0046F6AF /* MediaAttachmentPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93012B2D2DCD1FCB0046F6AF /* MediaAttachmentPreview.swift */; };
 		9314B15F2DB5E62900B3E17D /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314B15E2DB5E62900B3E17D /* UserItem.swift */; };
 		9314B1622DB5E69C00B3E17D /* FirebaseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9314B1612DB5E69C00B3E17D /* FirebaseConstants.swift */; };
 		931DA3C42DBF20790035E069 /* GroupPartnerPickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931DA3C32DBF20790035E069 /* GroupPartnerPickerScreen.swift */; };
@@ -66,6 +67,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93012B2D2DCD1FCB0046F6AF /* MediaAttachmentPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaAttachmentPreview.swift; sourceTree = "<group>"; };
 		9314B15E2DB5E62900B3E17D /* UserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
 		9314B1612DB5E69C00B3E17D /* FirebaseConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConstants.swift; sourceTree = "<group>"; };
 		931DA3C32DBF20790035E069 /* GroupPartnerPickerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPartnerPickerScreen.swift; sourceTree = "<group>"; };
@@ -413,6 +415,7 @@
 				93E32EBB2D1A43620019D125 /* TextInputArea.swift */,
 				938441742DCA1C370083DEE0 /* ChannelCreationTextView.swift */,
 				938441762DCA1CBB0083DEE0 /* AdminMessageTextView.swift */,
+				93012B2D2DCD1FCB0046F6AF /* MediaAttachmentPreview.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -573,6 +576,7 @@
 				93C337612DC9632100AEE806 /* MessageService.swift in Sources */,
 				93FFD3AD2DB14BAB00ACB1F6 /* RootScreen.swift in Sources */,
 				93C3375F2DC94AD700AEE806 /* ChatRoomViewModel.swift in Sources */,
+				93012B2E2DCD1FCB0046F6AF /* MediaAttachmentPreview.swift in Sources */,
 				938711132DC0A18E0051F65A /* ChannelItem.swift in Sources */,
 				93E32EAE2D1A40F90019D125 /* ChannelTabScreen.swift in Sources */,
 				93E32ECC2D1A4F210019D125 /* BubbleTailModifier.swift in Sources */,
