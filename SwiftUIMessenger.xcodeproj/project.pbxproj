@@ -20,6 +20,7 @@
 		93397DF72DCA6B5500B25F2E /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93397DF62DCA6B5500B25F2E /* CircularProfileImageView.swift */; };
 		93397DF92DCA6FAE00B25F2E /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93397DF82DCA6FAE00B25F2E /* Date+Extensions.swift */; };
 		933F6F032DCFE47600F62D45 /* VoiceRecorderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F6F022DCFE47600F62D45 /* VoiceRecorderService.swift */; };
+		933F6F072DCFEB9F00F62D45 /* TimeInterval+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F6F062DCFEB9F00F62D45 /* TimeInterval+Extensions.swift */; };
 		938441752DCA1C370083DEE0 /* ChannelCreationTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938441742DCA1C370083DEE0 /* ChannelCreationTextView.swift */; };
 		938441772DCA1CBB0083DEE0 /* AdminMessageTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938441762DCA1CBB0083DEE0 /* AdminMessageTextView.swift */; };
 		938711132DC0A18E0051F65A /* ChannelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938711122DC0A18E0051F65A /* ChannelItem.swift */; };
@@ -84,6 +85,7 @@
 		93397DF62DCA6B5500B25F2E /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		93397DF82DCA6FAE00B25F2E /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		933F6F022DCFE47600F62D45 /* VoiceRecorderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorderService.swift; sourceTree = "<group>"; };
+		933F6F062DCFEB9F00F62D45 /* TimeInterval+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Extensions.swift"; sourceTree = "<group>"; };
 		938441742DCA1C370083DEE0 /* ChannelCreationTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCreationTextView.swift; sourceTree = "<group>"; };
 		938441762DCA1CBB0083DEE0 /* AdminMessageTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMessageTextView.swift; sourceTree = "<group>"; };
 		938711122DC0A18E0051F65A /* ChannelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelItem.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				93397DF82DCA6FAE00B25F2E /* Date+Extensions.swift */,
 				9314BDBA2DCD4FD5005FD9F0 /* PhotosPickerItem+Extensions.swift */,
 				9314BDBE2DCD546D005FD9F0 /* URL+Extensions.swift */,
+				933F6F062DCFEB9F00F62D45 /* TimeInterval+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -576,6 +579,7 @@
 				93E32E9D2D1A3AAC0019D125 /* CallsTabScreen.swift in Sources */,
 				9314BDBD2DCD5423005FD9F0 /* MediaPickerItems_Types.swift in Sources */,
 				933F6F032DCFE47600F62D45 /* VoiceRecorderService.swift in Sources */,
+				933F6F072DCFEB9F00F62D45 /* TimeInterval+Extensions.swift in Sources */,
 				93E32E9E2D1A3AAC0019D125 /* MainTabView.swift in Sources */,
 				9314B15F2DB5E62900B3E17D /* UserItem.swift in Sources */,
 				939294C72D9D7ED50090CBF9 /* AuthHeaderView.swift in Sources */,

@@ -13,8 +13,8 @@ import Combine
 /// Storing Message URL
 final class VoiceRecorderService {
     private var audioRecorder: AVAudioRecorder?
-    private(set) var isRecording = false
-    private var elaspedTime: TimeInterval = 0
+    @Published private(set) var isRecording = false
+    @Published private(set) var elaspedTime: TimeInterval = 0
     private var startTime:  Date?
     private var timer: AnyCancellable?
     
@@ -87,7 +87,7 @@ final class VoiceRecorderService {
         }
     }
     
-    private func deleteRecording(at fileURL: URL) {
+    func deleteRecording(at fileURL: URL) {
         do {
             try FileManager.default.removeItem(at: fileURL)
             print("Audio File was deleted at \(fileURL)")
