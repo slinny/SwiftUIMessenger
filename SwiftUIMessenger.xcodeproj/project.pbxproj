@@ -19,6 +19,7 @@
 		93397DF42DCA694D00B25F2E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 93397DF32DCA694D00B25F2E /* Kingfisher */; };
 		93397DF72DCA6B5500B25F2E /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93397DF62DCA6B5500B25F2E /* CircularProfileImageView.swift */; };
 		93397DF92DCA6FAE00B25F2E /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93397DF82DCA6FAE00B25F2E /* Date+Extensions.swift */; };
+		933F6F032DCFE47600F62D45 /* VoiceRecorderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F6F022DCFE47600F62D45 /* VoiceRecorderService.swift */; };
 		938441752DCA1C370083DEE0 /* ChannelCreationTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938441742DCA1C370083DEE0 /* ChannelCreationTextView.swift */; };
 		938441772DCA1CBB0083DEE0 /* AdminMessageTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938441762DCA1CBB0083DEE0 /* AdminMessageTextView.swift */; };
 		938711132DC0A18E0051F65A /* ChannelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938711122DC0A18E0051F65A /* ChannelItem.swift */; };
@@ -82,6 +83,7 @@
 		931DA3C72DBF23CD0035E069 /* NewGroupSetUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupSetUpScreen.swift; sourceTree = "<group>"; };
 		93397DF62DCA6B5500B25F2E /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		93397DF82DCA6FAE00B25F2E /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		933F6F022DCFE47600F62D45 /* VoiceRecorderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorderService.swift; sourceTree = "<group>"; };
 		938441742DCA1C370083DEE0 /* ChannelCreationTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCreationTextView.swift; sourceTree = "<group>"; };
 		938441762DCA1CBB0083DEE0 /* AdminMessageTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMessageTextView.swift; sourceTree = "<group>"; };
 		938711122DC0A18E0051F65A /* ChannelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelItem.swift; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 			children = (
 				93C33AF92DC018A50081E771 /* UserService.swift */,
 				93C337602DC9632100AEE806 /* MessageService.swift */,
+				933F6F022DCFE47600F62D45 /* VoiceRecorderService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -572,6 +575,7 @@
 				93397DF72DCA6B5500B25F2E /* CircularProfileImageView.swift in Sources */,
 				93E32E9D2D1A3AAC0019D125 /* CallsTabScreen.swift in Sources */,
 				9314BDBD2DCD5423005FD9F0 /* MediaPickerItems_Types.swift in Sources */,
+				933F6F032DCFE47600F62D45 /* VoiceRecorderService.swift in Sources */,
 				93E32E9E2D1A3AAC0019D125 /* MainTabView.swift in Sources */,
 				9314B15F2DB5E62900B3E17D /* UserItem.swift in Sources */,
 				939294C72D9D7ED50090CBF9 /* AuthHeaderView.swift in Sources */,
@@ -756,6 +760,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMessenger/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow record voice messages";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -784,6 +789,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMessenger/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow record voice messages";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
